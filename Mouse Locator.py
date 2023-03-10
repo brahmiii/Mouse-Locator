@@ -8,7 +8,7 @@ class Mouse_Locator(App):
     def build(self):
         return Builder.load_string("""
 BoxLayout:
-    Button:
+    Label:
         background_color:"black"
         color:"white"
         id: mouse
